@@ -35,7 +35,7 @@ export default defineUserConfig({
       },
       {
         text: 'GitHub',
-        link: 'https://github.com/bigrich-luo/geeksman-blogs',
+        link: 'https://github.com/MatrixCQY',
       },
     ],
     sidebar: {
