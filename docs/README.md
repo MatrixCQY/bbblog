@@ -8,7 +8,7 @@ actions:
     link: /math/
     type: primary
   - text: 关于我
-    link: /about/
+    link: https://github.com/MatrixCQY
     type: secondary
 features:
   - title: 数学笔记
