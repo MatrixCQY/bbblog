@@ -12,6 +12,13 @@ export default defineUserConfig({
   title: '我的个人知识库',
   description: '数学、代码与衍生品笔记',
 
+  // 强制浏览器不缓存 HTML，解决更新不及时的问题
+  head: [
+    ['meta', { 'http-equiv': 'Pragma', content: 'no-cache' }],
+    ['meta', { 'http-equiv': 'Expires', content: '0' }],
+    ['meta', { 'http-equiv': 'Cache-Control', content: 'no-cache, no-store, must-revalidate' }],
+  ],
+
   bundler: viteBundler(),
 
   theme: defaultTheme({
