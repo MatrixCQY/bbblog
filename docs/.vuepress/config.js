@@ -15,6 +15,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   theme: defaultTheme({
+    colorMode: 'dark',
     logo: null,
     navbar: [
       {
@@ -42,19 +43,31 @@ export default defineUserConfig({
       '/math/': [
         {
           text: '数学笔记',
-          children: ['/math/README.md'],
+          children: [
+            '/math/README.md',
+            '/math/calculus.md',
+            '/math/linear-algebra.md',
+          ],
         },
       ],
       '/code/': [
         {
           text: '代码笔记',
-          children: ['/code/README.md'],
+          children: [
+            '/code/README.md',
+            '/code/python-tips.md',
+            '/code/cpp-guide.md',
+          ],
         },
       ],
       '/derivatives/': [
         {
           text: '衍生品笔记',
-          children: ['/derivatives/README.md'],
+          children: [
+            '/derivatives/README.md',
+            '/derivatives/options-101.md',
+            '/derivatives/greeks.md',
+          ],
         },
       ],
     },
