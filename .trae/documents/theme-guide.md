@@ -22,7 +22,7 @@ export default defineUserConfig({
 
 导航栏位于页面顶部，用于全局导航。
 
-```javascript
+```javascriptvscode-file://vscode-app/d:/Trae/resources/app/out/vs/code/electron-browser/workbench/docs/theme-guide.md
 navbar: [
   // 字符串 - 页面文件路径
   '/guide/README.md',
@@ -133,8 +133,8 @@ features:
 
 /* 示例：修改强调色 */
 :root {
-  --c-brand: #3eaf7c;
-  --c-brand-light: #4abf8a;
+  --c-brand: #c4c8c6ff;
+  --c-brand-light: #cdd7d2ff;
 }
 ```
 

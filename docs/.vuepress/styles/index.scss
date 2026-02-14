@@ -1,0 +1,63 @@
+/* 修改强调色 (Brand Color) */
+:root {
+  /* 默认模式下的颜色 */
+  --c-brand: #5c6ac4; /* 靛蓝色 */
+  --c-brand-light: #7480d6;
+  --c-brand-dark: #434d96;
+}
+
+html.dark {
+  /* 暗黑模式下的颜色 */
+  --c-brand: #7480d6;
+  --c-brand-light: #8e99e6;
+  --c-brand-dark: #5c6ac4;
+}
+
+/* 主页布局优化 (Homepage Layout Customization) */
+.home {
+  /* 增加 Hero 区域的上下内边距 */
+  .hero {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+    /* 给 Hero 图片增加一点阴影和圆角 */
+    img {
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    /* 鼠标悬停图片时轻微放大 */
+    img:hover {
+      transform: scale(1.02);
+    }
+
+    /* 调整标题样式 */
+    h1 {
+      font-weight: 800;
+      background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  /* 调整特性列表 (Features) 的布局 */
+  .features {
+    border-top: none; /* 移除默认的分割线 */
+    padding-top: 2rem;
+  }
+
+  .feature {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    padding: 1.5rem;
+    
+    /* 给每个特性块增加轻微的背景色（仅在浅色模式明显） */
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      background-color: var(--c-bg-light);
+    }
+  }
+}
