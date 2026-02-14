@@ -10,7 +10,7 @@ export default defineUserConfig({
 
   lang: 'zh-CN',
   title: 'MatrixCQY',
-  description: '数学、代码与金融笔记',
+  description: ':)',
 
   // 强制浏览器不缓存 HTML，解决更新不及时的问题
   head: [
