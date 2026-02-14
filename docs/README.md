@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://vuepress.vuejs.org/images/hero.png
+heroImage: https://vuepress.vuejs.org/images/Thriller.A.Cruel.Picture.1973.1080p.BluRay.x264.AAC-[YTS.MX].mp4_20250708_231307.749
 heroText: MatrixCQY
 tagline: 记录数学、代码与金融学习心得
 actions:
