@@ -8,7 +8,3 @@
 - **[概率论](./probability/events-and-probability.md)**: 概率空间、随机变量、极限定理。
 - **[数理统计](./statistics/concepts.md)**: 统计量、参数估计、假设检验。
 - **[数值分析](./numerical-analysis/interpolation.md)**: 插值、线性方程组求解、微分方程数值解。
-
-## LaTeX 公式演示
-
-本站支持 LaTeX 数学公式渲染。
