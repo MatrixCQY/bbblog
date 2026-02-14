@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://vuepress.vuejs.org/images/hero.png
+heroImage: /hero.png
 heroText: MatrixCQY
 actions:
   - text: Begin
