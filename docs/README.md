@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: https://vuepress.vuejs.org/images/hero.png
-heroText: 个人知识库
-tagline: 记录数学、代码与金融衍生品学习心得
+heroText: MatrixCQY
+tagline: 记录数学、代码与金融学习心得
 actions:
   - text: 开始阅读
     link: /math/
@@ -12,10 +12,10 @@ actions:
     type: secondary
 features:
   - title: 数学笔记
-    details: 收录高等数学、线性代数、概率论等核心数学知识，支持 LaTeX 公式渲染。
+    details: 支持 LaTeX 公式渲染。
   - title: 代码笔记
     details: 涵盖 Python, C++, JavaScript 等常用编程语言的实战经验与算法总结。
-  - title: 衍生品笔记
+  - title: 金融笔记
     details: 金融衍生品定价模型、期权策略与量化分析笔记。
 footer: MIT Licensed | Copyright © 2025
 ---
