@@ -182,8 +182,64 @@ export default defineUserConfig({
           text: '金融笔记',
           children: [
             '/finances/README.md',
-            '/finances/options-101.md',
-            '/finances/greeks.md',
+            {
+              text: '货币金融学',
+              collapsible: true,
+              children: [
+                '/finances/monetary/money-banking.md',
+                '/finances/monetary/central-banking.md',
+                '/finances/monetary/interest-inflation.md',
+                '/finances/monetary/international-finance.md',
+              ],
+            },
+            {
+              text: '微观经济学',
+              collapsible: true,
+              children: [
+                '/finances/microeconomics/supply-demand.md',
+                '/finances/microeconomics/consumer-theory.md',
+                '/finances/microeconomics/producer-theory.md',
+                '/finances/microeconomics/market-structures.md',
+              ],
+            },
+            {
+              text: '宏观经济学',
+              collapsible: true,
+              children: [
+                '/finances/macroeconomics/national-income.md',
+                '/finances/macroeconomics/growth-theory.md',
+                '/finances/macroeconomics/is-lm-model.md',
+                '/finances/macroeconomics/fiscal-monetary-policy.md',
+              ],
+            },
+            {
+              text: '衍生品',
+              collapsible: true,
+              children: [
+                '/finances/derivatives/options.md',
+                '/finances/derivatives/futures.md',
+                '/finances/derivatives/swaps.md',
+              ],
+            },
+            {
+              text: '加密货币',
+              collapsible: true,
+              children: [
+                '/finances/crypto/fundamentals.md',
+                '/finances/crypto/bitcoin.md',
+                '/finances/crypto/ethereum.md',
+                '/finances/crypto/defi.md',
+              ],
+            },
+            {
+              text: '量化金融',
+              collapsible: true,
+              children: [
+                '/finances/quant/time-series.md',
+                '/finances/quant/risk-management.md',
+                '/finances/quant/stochastic-calculus.md',
+              ],
+            },
           ],
         },
       ],
