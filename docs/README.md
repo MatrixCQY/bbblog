@@ -14,12 +14,9 @@ features:
   - title: 数学笔记
     details: 支持 LaTeX 公式渲染。
   - title: 代码笔记
-    details: 涵盖 Python, C++, JavaScript 等常用编程语言的实战经验与算法总结。
+
   - title: 金融笔记
-    details: 金融衍生品定价模型、期权策略与量化分析笔记。
-footer: MIT Licensed | Copyright © 2025
+   
 ---
 
 ### 欢迎访问
-
-这是一个基于 VuePress 搭建的个人知识管理平台，旨在整理和分享学习过程中的点滴积累。
