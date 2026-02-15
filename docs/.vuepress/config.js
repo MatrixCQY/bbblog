@@ -53,6 +53,51 @@ export default defineUserConfig({
           children: [
             '/math/README.md',
             {
+              text: '抽象代数',
+              collapsible: true,
+              children: [
+                '/math/abstract-algebra/groups-1.md',
+                '/math/abstract-algebra/groups-2.md',
+                '/math/abstract-algebra/rings-fields.md',
+                '/math/abstract-algebra/modules.md',
+                '/math/abstract-algebra/galois.md',
+                '/math/abstract-algebra/representation-theory.md',
+              ],
+            },
+            {
+              text: '李群与李代数',
+              collapsible: true,
+              children: [
+                '/math/lie-groups/matrix-lie-groups.md',
+                '/math/lie-groups/lie-algebras.md',
+              ],
+            },
+            {
+              text: '拓扑学',
+              collapsible: true,
+              children: [
+                '/math/topology/spaces-maps.md',
+                '/math/topology/properties.md',
+                '/math/topology/filters.md',
+                '/math/topology/knot-theory.md',
+              ],
+            },
+            {
+              text: '常微分方程',
+              collapsible: true,
+              children: [
+                '/math/ode/elementary.md',
+                '/math/ode/linear.md',
+              ],
+            },
+            {
+              text: '偏微分方程',
+              collapsible: true,
+              children: [
+                '/math/pde/derivation.md',
+              ],
+            },
+            {
               text: '复变函数',
               collapsible: true,
               children: [
