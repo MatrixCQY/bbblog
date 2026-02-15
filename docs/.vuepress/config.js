@@ -154,7 +154,7 @@ export default defineUserConfig({
           text: '代码笔记',
           children: [
             '/code/README.md',
-            '/code/python-tips.md',
+
             {
               text: 'C++ 教程',
               collapsible: true,
