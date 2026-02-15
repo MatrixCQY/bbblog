@@ -2,9 +2,9 @@
 
 Welcome to my personal knowledge base built with [VuePress](https://v2.vuepress.vuejs.org/).
 
-## 🚀 Quick Access
+## Quick Access
 
-👉 **Visit the Website:** [https://MatrixCQY.github.io/bbblog/](https://MatrixCQY.github.io/bbblog/)
+**Visit the Website:** [https://MatrixCQY.github.io/bbblog/](https://MatrixCQY.github.io/bbblog/)
 
 ## Features
 - **Mathematics**: Notes on Calculus, Linear Algebra, etc., with LaTeX support.
